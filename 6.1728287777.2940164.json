@@ -1,0 +1,34 @@
+{
+    "packet_id": 6,
+    "timestamp": "2024-10-07T09:56:17.293984",
+    "ethernet_header": [
+        {
+            "dest_mac_addr": "fa:03:8f:99:cc:6d",
+            "source_mac_addr": "80:af:ca:28:ae:1d"
+        }
+    ],
+    "ip_header": [
+        {
+            "identification": "bac8",
+            "flags_and_fragment_offset": "4000",
+            "protocol": "11",
+            "checksum": "f78b",
+            "source_ip": "192.168.4.1",
+            "destination_ip": "192.168.4.10"
+        }
+    ],
+    "udp_header": [
+        {
+            "source_port": 50000,
+            "destination_port": 50001,
+            "length": 41,
+            "checksum": "f261"
+        }
+    ],
+    "udp_payload": [
+        {
+            "payload_length": 33,
+            "payload": "fe19000101004d32cad3f86e4647b28e7d3e26a77a0b5b671a6f18d2b54692f500"
+        }
+    ]
+}
